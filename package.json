@@ -4,7 +4,7 @@
   "description": "Role-based finance data API with analytics and access control",
   "main": "index.js",
   "scripts": {
-    "dev": "npx prisma generate && npx prisma migrate dev && ts-node-dev src/index.ts",
+    "dev": "npx prisma generate && npx prisma migrate dev --name init && ts-node-dev src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
