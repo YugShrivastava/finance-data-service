@@ -17,6 +17,10 @@ app.use("/records", recordRoutes)
 app.use("/dashboard", dashboardRoutes)
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
+app.get('/', (_req, res) => {
+  res.status(200).json({ status: "api is live" })
+}
+
 app.get("/health", (_req, res) => {
   res.status(200).json({ status: "ok" })
 })
