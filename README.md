@@ -25,8 +25,15 @@ authentication, access control, and analytics.
 
 ## Project Structure
 
-src/ ├── config/ ├── controllers/ ├── middlewares/ ├── routes/ ├──
-services/ ├── types/ ├── utils/ └── index.ts
+src/
+├── config/
+├── controllers/
+├── middlewares/
+├── routes/
+├── services/
+├── types/
+├── utils/
+├── index.ts
 
 ## Setup
 
@@ -61,7 +68,7 @@ Swagger Docs: http://localhost:5000/api-docs
 
 Use header:
 
-Authorization: Bearer `<token>`{=html}
+Authorization: Bearer `<token>`
 
 ------------------------------------------------------------------------
 
