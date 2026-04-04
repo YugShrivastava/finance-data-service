@@ -25,15 +25,15 @@ authentication, access control, and analytics.
 
 ## Project Structure
 
-src/
-├── config/
-├── controllers/
-├── middlewares/
-├── routes/
-├── services/
-├── types/
-├── utils/
-├── index.ts
+src/  
+├── config/  
+├── controllers/  
+├── middlewares/  
+├── routes/  
+├── services/  
+├── types/  
+├── utils/  
+├── index.ts  
 
 ## Setup
 
